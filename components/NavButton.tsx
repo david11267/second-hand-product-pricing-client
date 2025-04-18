@@ -17,7 +17,7 @@ export default function NavButton({ active, innerText }: Props) {
     return (
       <button
         className={
-          "cursor-pointer rounded-full p-4 text-stone-800 hover:underline decoration-dashed underline-offset-14 "
+          "active:brightness-25 cursor-pointer rounded-full p-4 text-stone-800 hover:underline decoration-dashed underline-offset-14 "
         }>
         {innerText}
       </button>
